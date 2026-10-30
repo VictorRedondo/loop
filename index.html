@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap">
-<script>try{var _t=localStorage.getItem("loop.theme");if(_t==="light"||_t==="dark")document.documentElement.dataset.theme=_t}catch(e){}</script>
+<script>try{var _t=localStorage.getItem("loop.theme");if(_t==="light"||_t==="dark")document.documentElement.dataset.theme=_t}catch(e){}(function(){var L=["es","en","fr","it","pt"],q=(location.search.match(/lang=(\w+)/)||[])[1],h=location.hash.slice(1),n=(navigator.language||"es").slice(0,2);window.LOOP_LANG=L.indexOf(q)>=0?q:L.indexOf(h)>=0?h:L.indexOf(n)>=0?n:"en"})();function LIMG(x){document.write(x.replace(/img\/es\//g,"img/"+LOOP_LANG+"/"))}</script>
 <style>
 :root{--bg:#f5f5f7;--card:#fff;--line:#d9d9de;--fg:#1d1d1f;--muted:#6e6e73;--accent:#3f7d00;--lime:#a3fa00;--on-lime:#000;--logo:#1d1d1f;--yellow:#e0b800;--red:#e8204a;--cyan:#00a6d6;--glow:rgba(120,200,0,.22);--tread:1;--shadow:rgba(0,0,0,.18);color-scheme:light}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#000;--card:#1c1c1e;--line:#2c2c2e;--fg:#f5f5f7;--muted:#a1a1a6;--accent:#a3fa00;--logo:#a3fa00;--yellow:#ffe620;--red:#fa2d55;--cyan:#3cd7ff;--glow:rgba(163,250,0,.26);--tread:1.25;--shadow:rgba(0,0,0,.6);color-scheme:dark}}
@@ -154,13 +154,13 @@ footer small{display:block;max-width:60ch;margin-top:6px}
     </div>
     <figure class="stage">
       <img class="tread" src="img/treadmill-blur.webp" alt="" width="960" height="875" aria-hidden="true">
-      <picture class="phone"><source srcset="img/hero-iphone.png" media="(prefers-reduced-motion: reduce)"><img src="img/hero-iphone.webp" alt="Entreno en directo en el iPhone: tiempo, pulso, distancia y velocidad de la cinta" data-i18n-alt="alt_hero_phone" width="640" height="1322" fetchpriority="high"></picture>
-      <picture class="watch"><source srcset="img/hero-watch.png" media="(prefers-reduced-motion: reduce)"><img src="img/hero-watch.webp" alt="Entreno en curso en el Apple Watch: tiempo, pulso, calorías, distancia y velocidad" data-i18n-alt="alt_metrics" width="400" height="637" fetchpriority="high"></picture>
+      <script>LIMG("<picture class=\"phone\"><source srcset=\"img/es/hero-iphone.png\" media=\"(prefers-reduced-motion: reduce)\"><img src=\"img/es/hero-iphone.webp\" alt=\"Entreno en directo en el iPhone: tiempo, pulso, distancia y velocidad de la cinta\" data-i18n-alt=\"alt_hero_phone\" width=\"760\" height=\"1570\" fetchpriority=\"high\"></picture>")</script><noscript><picture class="phone"><source srcset="img/es/hero-iphone.png" media="(prefers-reduced-motion: reduce)"><img src="img/es/hero-iphone.webp" alt="Entreno en directo en el iPhone: tiempo, pulso, distancia y velocidad de la cinta" data-i18n-alt="alt_hero_phone" width="760" height="1570" fetchpriority="high"></picture></noscript>
+      <script>LIMG("<picture class=\"watch\"><source srcset=\"img/es/hero-watch.png\" media=\"(prefers-reduced-motion: reduce)\"><img src=\"img/es/hero-watch.webp\" alt=\"Entreno en curso en el Apple Watch: tiempo, pulso, calor\u00edas, distancia y velocidad\" data-i18n-alt=\"alt_metrics\" width=\"561\" height=\"894\" fetchpriority=\"high\"></picture>")</script><noscript><picture class="watch"><source srcset="img/es/hero-watch.png" media="(prefers-reduced-motion: reduce)"><img src="img/es/hero-watch.webp" alt="Entreno en curso en el Apple Watch: tiempo, pulso, calorías, distancia y velocidad" data-i18n-alt="alt_metrics" width="561" height="894" fetchpriority="high"></picture></noscript>
     </figure>
   </section>
 
   <section class="value" style="--c:var(--lime)">
-    <figure class="shot watch bt"><img class="tread" src="img/treadmill-blur.webp" alt="" width="960" height="875" aria-hidden="true"><img class="" src="img/watch-devices.webp" alt="Lista de cintas en el Apple Watch con la Mobvoi TM SE conectada por FTMS" data-i18n-alt="alt_devices" width="561" height="894" loading="lazy"><span class="bt-ico a"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10-5 4V3l5 4L7 17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="bt-ico b"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10-5 4V3l5 4L7 17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="bt-ico c"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10-5 4V3l5 4L7 17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></figure>
+    <figure class="shot watch bt"><img class="tread" src="img/treadmill-blur.webp" alt="" width="960" height="875" aria-hidden="true"><script>LIMG("<img class=\"\" src=\"img/es/watch-devices.webp\" alt=\"Lista de cintas en el Apple Watch con la Mobvoi TM SE conectada por FTMS\" data-i18n-alt=\"alt_devices\" width=\"561\" height=\"894\" loading=\"lazy\">")</script><noscript><img class="" src="img/es/watch-devices.webp" alt="Lista de cintas en el Apple Watch con la Mobvoi TM SE conectada por FTMS" data-i18n-alt="alt_devices" width="561" height="894" loading="lazy"></noscript><span class="bt-ico a"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10-5 4V3l5 4L7 17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="bt-ico b"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10-5 4V3l5 4L7 17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="bt-ico c"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10-5 4V3l5 4L7 17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></figure>
     <div class="text">
       <h2 data-i18n="v1_h">Se conecta a casi cualquier cinta</h2>
       <p data-i18n="v1_p">Loop habla los dos estándares Bluetooth de las cintas: FTMS (Fitness Machine Service) y RSC (Running Speed and Cadence). Si tu cinta funciona con Zwift o Kinomap, lo normal es que funcione con Loop. La encuentra sola, la recuerda y se vuelve a conectar al abrir la app.</p>
@@ -169,14 +169,14 @@ footer small{display:block;max-width:60ch;margin-top:6px}
     </div>
   </section>
   <section class="value flip" style="--c:var(--yellow)">
-    <figure class="shot watch"><picture class=""><source srcset="img/watch-pages.png" media="(prefers-reduced-motion: reduce)"><img src="img/watch-pages.webp" alt="Entreno en curso en el Apple Watch pasando por las páginas de métricas, zonas de pulso y anillos" data-i18n-alt="alt_pages" width="440" height="701" loading="lazy"></picture></figure>
+    <figure class="shot watch"><script>LIMG("<picture class=\"\"><source srcset=\"img/es/watch-pages.png\" media=\"(prefers-reduced-motion: reduce)\"><img src=\"img/es/watch-pages.webp\" alt=\"Entreno en curso en el Apple Watch pasando por las p\u00e1ginas de m\u00e9tricas, zonas de pulso y anillos\" data-i18n-alt=\"alt_pages\" width=\"561\" height=\"894\" loading=\"lazy\"></picture>")</script><noscript><picture class=""><source srcset="img/es/watch-pages.png" media="(prefers-reduced-motion: reduce)"><img src="img/es/watch-pages.webp" alt="Entreno en curso en el Apple Watch pasando por las páginas de métricas, zonas de pulso y anillos" data-i18n-alt="alt_pages" width="561" height="894" loading="lazy"></picture></noscript></figure>
     <div class="text">
       <h2 data-i18n="v2_h">Tan sencillo como un entreno de Apple</h2>
       <p data-i18n="v2_p">Las mismas páginas, colores y gestos que la app Entreno: tiempo, pulso, calorías, distancia y parciales. Cambia la velocidad de la cinta con la Digital Crown y, si arrancas la cinta desde su mando, el entreno empieza solo.</p>
     </div>
   </section>
   <section class="value" style="--c:var(--red)">
-    <figure class="shot duo"><img class="phone" src="img/iphone-history.webp" alt="Detalle de un entreno en el iPhone con tiempo, distancia, pasos y gráfica de pulso" data-i18n-alt="alt_history" width="700" height="1446" loading="lazy"><img class="watch2" src="img/watch-sumtop.webp" alt="Resumen de una caminata en el Apple Watch: tiempo, distancia, calorías y pulso medio" data-i18n-alt="alt_sumtop" width="561" height="894" loading="lazy"></figure>
+    <figure class="shot duo"><script>LIMG("<img class=\"phone\" src=\"img/es/iphone-history.webp\" alt=\"Detalle de un entreno en el iPhone con tiempo, distancia, pasos y gr\u00e1fica de pulso\" data-i18n-alt=\"alt_history\" width=\"760\" height=\"1570\" loading=\"lazy\">")</script><noscript><img class="phone" src="img/es/iphone-history.webp" alt="Detalle de un entreno en el iPhone con tiempo, distancia, pasos y gráfica de pulso" data-i18n-alt="alt_history" width="760" height="1570" loading="lazy"></noscript><script>LIMG("<img class=\"watch2\" src=\"img/es/watch-sumtop.webp\" alt=\"Resumen de una caminata en el Apple Watch: tiempo, distancia, calor\u00edas y pulso medio\" data-i18n-alt=\"alt_sumtop\" width=\"561\" height=\"894\" loading=\"lazy\">")</script><noscript><img class="watch2" src="img/es/watch-sumtop.webp" alt="Resumen de una caminata en el Apple Watch: tiempo, distancia, calorías y pulso medio" data-i18n-alt="alt_sumtop" width="561" height="894" loading="lazy"></noscript></figure>
     <div class="text">
       <h2 data-i18n="v3_h">Datos reales, siempre</h2>
       <p data-i18n="v3_p">Cada sensor aporta lo que mejor mide: la cinta pone la distancia, la velocidad y los pasos, y el Apple Watch, el pulso y las calorías. Loop lo junta en un solo entreno que se guarda en Salud y aparece en Fitness, así que tus anillos, tus tendencias y tu historial cuadran con lo que de verdad has hecho.</p>
@@ -191,7 +191,7 @@ footer small{display:block;max-width:60ch;margin-top:6px}
     </div>
   </section>
   <section class="value" style="--c:var(--lime)">
-    <figure class="shot watch"><img class="" src="img/watch-summary.webp" alt="Resumen del entreno en el Apple Watch con el botón Cambiar a carrera" data-i18n-alt="alt_summary" width="561" height="894" loading="lazy"></figure>
+    <figure class="shot watch"><script>LIMG("<img class=\"\" src=\"img/es/watch-summary.webp\" alt=\"Resumen del entreno en el Apple Watch con el bot\u00f3n Cambiar a carrera\" data-i18n-alt=\"alt_summary\" width=\"561\" height=\"894\" loading=\"lazy\">")</script><noscript><img class="" src="img/es/watch-summary.webp" alt="Resumen del entreno en el Apple Watch con el botón Cambiar a carrera" data-i18n-alt="alt_summary" width="561" height="894" loading="lazy"></noscript></figure>
     <div class="text">
       <h2 data-i18n="v5_h">¿Caminata o carrera? Loop lo sabe</h2>
       <p data-i18n="v5_p">Al terminar, Loop mira tu velocidad y tu cadencia y guarda el entreno como caminata o como carrera. Si no acierta, lo cambias con un toque en el resumen y se corrige también en Salud.</p>
@@ -459,6 +459,7 @@ footer small{display:block;max-width:60ch;margin-top:6px}
     document.querySelectorAll('[data-i18n-alt]').forEach(function(e){e.alt=d[e.dataset.i18nAlt]});
     document.querySelectorAll('[data-i18n-ph]').forEach(function(e){e.placeholder=d[e.dataset.i18nPh]});
     var sel=document.getElementById('lang'); if(sel) sel.value=l;
+    document.querySelectorAll('img[src*="img/"],source[srcset*="img/"]').forEach(function(e){var a=e.tagName==='SOURCE'?'srcset':'src',v=e.getAttribute(a),w=v.replace(/img\/(es|en|fr|it|pt)\//,'img/'+l+'/'); if(w!==v) e.setAttribute(a,w)});
     document.querySelectorAll('[data-priv]').forEach(function(a){a.href=a.getAttribute('href').split('#')[0]+'#'+l});
     document.querySelectorAll('[data-contact]').forEach(function(a){var h=a.getAttribute('href').split('?')[0];a.setAttribute('href',h+'?lang='+l+(a.dataset.contact?'#'+a.dataset.contact:''))});
     if(window.paintTheme) window.paintTheme();
@@ -471,7 +472,7 @@ footer small{display:block;max-width:60ch;margin-top:6px}
   window.paintTheme=paintTheme; paintTheme();
   th.addEventListener('click',function(){var o=['auto','light','dark'],v=o[(o.indexOf(document.documentElement.dataset.theme||'auto')+1)%3]; if(v==='auto') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme=v; try{localStorage.setItem('loop.theme',v)}catch(x){} paintTheme();});
   var q=(location.search.match(/lang=(\w+)/)||[])[1], h=location.hash.slice(1), n=(navigator.language||'es').slice(0,2);
-  show(S[q]?q:S[h]?h:(S[n]?n:'en'));
+  show(window.LOOP_LANG||(S[q]?q:S[h]?h:(S[n]?n:'en')));
 })();
 
 </script>
