@@ -48,7 +48,7 @@ header.top{display:flex;align-items:center;justify-content:space-between;gap:12p
 footer{border-top:1px solid var(--line);padding-top:28px;padding-bottom:max(36px,env(safe-area-inset-bottom));color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:24px}
 footer .links{display:flex;gap:20px;flex-wrap:wrap}
 footer small{display:block;max-width:60ch;margin-top:6px}
-@media (max-width:520px){.pill .lbl{display:none}.pill{padding:8px 11px}}
+@media (max-width:560px){.sel select{color:transparent;width:40px;padding:8px 0;text-indent:-999px}.sel select option{color:var(--fg)}.sel::after{display:none}.sel svg{left:50%;transform:translateX(-50%)}.pill{padding:8px 14px}}
 
 main.contact{max-width:44rem;padding-block:40px 24px}
 main.contact h1{font-size:clamp(36px,5vw,52px);letter-spacing:-.03em;font-weight:900;margin:0 0 10px}
@@ -75,7 +75,7 @@ select.f{appearance:none;-webkit-appearance:none;background-image:linear-gradien
 .done p{margin:0}
 .done pre{white-space:pre-wrap;word-break:break-word;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:14px;font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;margin:0;max-height:260px;overflow:auto}
 .done .addr{font-weight:800;user-select:all}
-@media (max-width:560px){.row2{grid-template-columns:1fr}.tabs{display:flex;width:100%;flex-wrap:nowrap}.tabs a{flex:1;text-align:center;font-size:14px;padding:9px 8px}}
+@media (max-width:560px){main.contact h1,main.contact>p{text-align:center;margin-inline:auto}.row2{grid-template-columns:1fr}.tabs{display:flex;width:100%;flex-wrap:nowrap}.tabs a{flex:1;text-align:center;font-size:14px;padding:9px 8px}}
 </style>
 </head>
 <body data-title="c_title">

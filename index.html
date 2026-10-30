@@ -48,7 +48,7 @@ header.top{display:flex;align-items:center;justify-content:space-between;gap:12p
 footer{border-top:1px solid var(--line);padding-top:28px;padding-bottom:max(36px,env(safe-area-inset-bottom));color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:24px}
 footer .links{display:flex;gap:20px;flex-wrap:wrap}
 footer small{display:block;max-width:60ch;margin-top:6px}
-@media (max-width:520px){.pill .lbl{display:none}.pill{padding:8px 11px}}
+@media (max-width:560px){.sel select{color:transparent;width:40px;padding:8px 0;text-indent:-999px}.sel select option{color:var(--fg)}.sel::after{display:none}.sel svg{left:50%;transform:translateX(-50%)}.pill{padding:8px 14px}}
 
 .hero{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:40px;padding-block:48px 72px}
 .hero h1{font-size:clamp(40px,5.6vw,72px);line-height:.98;letter-spacing:-.035em;font-weight:900;margin:0 0 24px;text-wrap:balance}
@@ -105,13 +105,28 @@ footer small{display:block;max-width:60ch;margin-top:6px}
 .logo-runner{width:100%;height:260px;display:block;color:var(--logo)}
 @media (max-width:760px){
  .hero{grid-template-columns:1fr;padding-block:24px 48px;gap:8px}
- .stage{order:-1;max-width:440px}
+ .stage{order:-1;max-width:440px;margin-bottom:28px}
  .value{grid-template-columns:1fr;gap:32px;padding-block:48px}
  .value.flip .shot{order:0}
  .shot.watch img{width:min(70%,260px)}
  .shot.bt{min-height:0}
- .compat{grid-template-columns:1fr}
+ .compat{grid-template-columns:1fr;text-align:center}
+ .compat p{margin-inline:auto}
  .logo-runner{height:190px;order:-1}
+ /* En el móvil, textos e imágenes centrados */
+ .hero>div{text-align:center}
+ .hero p{margin-inline:auto}
+ .cta{justify-content:center}
+ .value .text{text-align:center}
+ .value h2::before{margin-inline:auto}
+ .value p{margin-inline:auto}
+ .chips,.apps{justify-content:center}
+ .duo{justify-content:center;padding-left:0}
+ .duo .phone{margin-right:18%}
+ .duo .watch2{right:6%}
+ footer{flex-direction:column;align-items:center;text-align:center}
+ footer small{margin-inline:auto}
+ footer .links{justify-content:center}
 }
 @media (prefers-reduced-motion:no-preference){
  .stage picture{animation:rise .9s cubic-bezier(.2,.7,.2,1) both} .stage .watch{animation-delay:.15s}
