@@ -5,4 +5,4 @@ Web de **Loop**, la app de Apple Watch e iPhone que conecta tu cinta de correr c
 - Web: https://victorredondo.github.io/loop/
 - Cintas compatibles: https://victorredondo.github.io/loop/compatibilidad/
 - Política de privacidad: https://victorredondo.github.io/loop/privacidad/
-- Contacto: vredondo.dev@icloud.com
+- Contacto: https://victorredondo.github.io/loop/contacto/

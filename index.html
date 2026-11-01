@@ -74,6 +74,7 @@ footer small{display:block;max-width:60ch;margin-top:6px}
 .text{min-width:0}
 .shot{margin:0;display:flex;justify-content:center;position:relative}
 .shot img{height:auto;display:block}
+.shot>picture{display:flex;justify-content:center;width:100%}
 .shot.watch img{width:min(100%,300px)}
 .shot.watch img{transform:translateX(2.6%)} /* la corona descentra el marco: se centra la pantalla */
 .shot.phone img{width:min(100%,280px)}
@@ -447,7 +448,8 @@ footer small{display:block;max-width:60ch;margin-top:6px}
       ctx.setTransform(1,0,0,1,0,0); ctx.clearRect(0,0,w,h);
       const head = 130, total = LH + head;
       const k = Math.min(w * 0.92 / LW, h * 0.94 / total);
-      const x = (w - LW * k) / 2, y = (h - total * k) / 2 + head * k;
+      // Centrado óptico: la «l» es fina y el peso queda a la derecha, así que se desplaza un 2 %
+      const x = (w - LW * k) / 2 + 0.02 * LW * k, y = (h - total * k) / 2 + head * k;
       const t0 = start.get(canvas);
       const tr = reduce ? 1.2 : (t0 == null ? -1 : (now - t0) / 1000);
       drawScene(ctx, x, y, k, getComputedStyle(canvas).color, canvas.dataset.runner || '#a3fa00', tr);

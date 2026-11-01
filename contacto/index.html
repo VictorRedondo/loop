@@ -77,6 +77,8 @@ select.f{appearance:none;-webkit-appearance:none;background-image:linear-gradien
 .done p{margin:0}
 .done pre{white-space:pre-wrap;word-break:break-word;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:14px;font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;margin:0;max-height:260px;overflow:auto}
 .done .addr{font-weight:800;user-select:all}
+.em>span{unicode-bidi:bidi-override;direction:rtl}
+.hp{position:absolute!important;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
 @media (max-width:560px){main.contact h1,main.contact>p{text-align:center;margin-inline:auto}.row2{grid-template-columns:1fr}.tabs{display:flex;width:100%;flex-wrap:nowrap}.tabs a{flex:1;text-align:center;font-size:14px;padding:9px 8px}}
 </style>
 </head>
@@ -91,7 +93,7 @@ select.f{appearance:none;-webkit-appearance:none;background-image:linear-gradien
   <p data-i18n="c_p">Elige el formulario que mejor encaje. Al enviarlo se abrirá tu app de correo con el mensaje ya preparado.</p>
   <nav class="tabs" aria-label="Contacto"><a href="#contacto" data-tab="contacto" data-i18n="tab_general">Consulta general</a><a href="#cinta" data-tab="cinta" data-i18n="tab_cinta">¿Funciona tu cinta?</a></nav>
   <form id="contacto" data-kind="general" novalidate>
-    <p class="intro" data-i18n="g_intro">Dudas, ideas o lo que quieras contarnos sobre Loop.</p>
+    <p class="intro" data-i18n="g_intro">Dudas, ideas o lo que quieras contarnos sobre Loop.</p><div class="hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
     <div class="row2"><div class="field"><label for="g-name"><span data-i18n="f_name">Nombre</span> <b>*</b></label><input id="g-name" name="f_name" type="text" required autocomplete="name"></div><div class="field"><label for="g-mail"><span data-i18n="f_email">Email</span> <b>*</b></label><input id="g-mail" name="f_email" type="email" required autocomplete="email"></div></div>
     <div class="field"><label for="g-subject"><span data-i18n="f_subject">Asunto</span> <b>*</b></label><input id="g-subject" name="f_subject" type="text" required autocomplete=""></div>
     <div class="field"><label for="g-msg"><span data-i18n="f_msg">Mensaje</span> <b>*</b></label><textarea id="g-msg" name="f_msg" required data-i18n-ph="f_msg_ph" placeholder="Describe tu problema o consulta lo más detalladamente posible"></textarea></div>
@@ -100,7 +102,7 @@ select.f{appearance:none;-webkit-appearance:none;background-image:linear-gradien
     <p class="err" hidden data-i18n="f_error">Rellena todos los campos marcados con * y acepta la política de privacidad.</p><div class="actions"><button class="btn" type="submit" data-i18n="f_send">Enviar</button><span class="req2" data-i18n="f_req">* Obligatorio</span></div>
   </form>
   <form id="cinta" data-kind="cinta" novalidate hidden>
-    <p class="intro" data-i18n="t_intro">Dinos la marca y el modelo exactos de tu cinta y cómo se porta con Loop. Nos ayuda a hacer compatibles más cintas.</p>
+    <p class="intro" data-i18n="t_intro">Dinos la marca y el modelo exactos de tu cinta y cómo se porta con Loop. Nos ayuda a hacer compatibles más cintas.</p><div class="hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
     <div class="row2"><div class="field"><label for="t-name"><span data-i18n="f_name">Nombre</span> <b>*</b></label><input id="t-name" name="f_name" type="text" required autocomplete="name"></div><div class="field"><label for="t-mail"><span data-i18n="f_email">Email</span> <b>*</b></label><input id="t-mail" name="f_email" type="email" required autocomplete="email"></div></div>
     <div class="row2"><div class="field"><label for="t-brand"><span data-i18n="f_brand">Marca y modelo de la cinta</span> <b>*</b></label><input id="t-brand" name="f_brand" type="text" required autocomplete=""></div>
     <div class="field"><label for="t-works"><span data-i18n="f_works">¿Funciona tu cinta con Loop?</span> <b>*</b></label><select class="f" id="t-works" name="f_works" required><option value="" data-i18n="f_choose">Elige una opción</option><option value="yes" data-i18n="yes">Sí</option><option value="no" data-i18n="no">No</option><option value="partly" data-i18n="partly">Parcialmente</option></select></div></div>
@@ -110,7 +112,7 @@ select.f{appearance:none;-webkit-appearance:none;background-image:linear-gradien
     <p class="err" hidden data-i18n="f_error">Rellena todos los campos marcados con * y acepta la política de privacidad.</p><div class="actions"><button class="btn" type="submit" data-i18n="f_send">Enviar</button><span class="req2" data-i18n="f_req">* Obligatorio</span></div>
   </form>
   <div class="done" id="done" hidden>
-    <p><span data-i18n="f_done">Hemos abierto tu app de correo con el mensaje preparado: solo falta pulsar Enviar. Si no se ha abierto, copia el mensaje y mándalo a</span> <span class="addr">vredondo.dev@icloud.com</span></p>
+    <p><span data-i18n="f_done">Hemos abierto tu app de correo con el mensaje preparado: solo falta pulsar Enviar. Si no se ha abierto, copia el mensaje y mándalo a</span> <span class="addr em"><span>moc.duolci@ved.odnoderv</span></span></p>
     <pre id="done-text"></pre>
     <div class="actions"><button class="btn" type="button" id="copy" data-i18n="f_copy">Copiar mensaje</button><a href="../" data-i18n="back">Volver a Loop</a></div>
   </div>
@@ -149,7 +151,10 @@ select.f{appearance:none;-webkit-appearance:none;background-image:linear-gradien
 })();
 
 (function(){
-  var TO='vredondo.dev@icloud.com';
+  var TO=['vredondo','dev'].join('.')+'@'+['icloud','com'].join('.');
+  document.querySelectorAll('.em').forEach(function(e){e.textContent=TO});
+  // Antispam: campo trampa, tiempo mínimo para rellenar y un envío cada 20 s
+  var T0=Date.now(), lastSend=0;
   function tab(){var h=location.hash.slice(1); if(h!=='cinta'&&h!=='contacto') h='contacto';
     document.querySelectorAll('form').forEach(function(f){f.hidden=f.id!==h});
     document.getElementById('done').hidden=true;
@@ -160,6 +165,8 @@ select.f{appearance:none;-webkit-appearance:none;background-image:linear-gradien
   document.querySelectorAll('form').forEach(function(f){
     f.addEventListener('submit',function(e){
       e.preventDefault();
+      var hp=f.querySelector('[name="website"]');
+      if((hp&&hp.value)||Date.now()-T0<3000||Date.now()-lastSend<20000) return;
       var ok=true; f.querySelectorAll('[required]').forEach(function(el){var v=el.type==='checkbox'?el.checked:el.value.trim()!==''; if(el.type==='email') v=v&&/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(el.value.trim()); el.setAttribute('aria-invalid',v?'false':'true'); ok=ok&&v});
       f.querySelector('.err').hidden=ok; if(!ok) return;
       var val=function(n){var el=f.querySelector('[name="'+n+'"]'); if(!el) return ''; if(el.tagName==='SELECT') return el.options[el.selectedIndex].text; return el.value.trim()};
@@ -167,7 +174,7 @@ select.f{appearance:none;-webkit-appearance:none;background-image:linear-gradien
       if(f.dataset.kind==='cinta'){lines.push(T('f_brand')+': '+val('f_brand'),T('f_works')+' '+val('f_works')); subject='[Loop web] '+T('tab_cinta')+' '+val('f_brand');}
       else {subject='[Loop web] '+val('f_subject'); lines.push(T('f_subject')+': '+val('f_subject'));}
       lines.push('',val('f_msg'),'','— '+T('f_accept')+' '+T('privacy_l')+' ('+new Date().toISOString().slice(0,10)+')');
-      lastText=lines.join('\n');
+      lastText=lines.join('\n'); lastSend=Date.now();
       location.href='mailto:'+TO+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(lastText);
       document.getElementById('done-text').textContent='Para: '.replace('Para',T('f_email'))+TO+'\n'+T('f_subject')+': '+subject+'\n\n'+lastText;
       f.hidden=true; document.getElementById('done').hidden=false;
