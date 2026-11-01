@@ -75,6 +75,7 @@ footer small{display:block;max-width:60ch;margin-top:6px}
 .shot{margin:0;display:flex;justify-content:center;position:relative}
 .shot img{height:auto;display:block}
 .shot.watch img{width:min(100%,300px)}
+.shot.watch img{transform:translateX(2.6%)} /* la corona descentra el marco: se centra la pantalla */
 .shot.phone img{width:min(100%,280px)}
 /* 1: cinta + bluetooth */
 .shot.bt{min-height:400px;align-items:center}
@@ -110,6 +111,8 @@ footer small{display:block;max-width:60ch;margin-top:6px}
 @media (max-width:760px){
  .hero{grid-template-columns:1fr;padding-block:24px 48px;gap:8px}
  .stage{order:-1;max-width:440px;margin-bottom:28px}
+ .stage .tread{left:-14%} /* centrada en el móvil */
+ .shot.bt .tread{left:-2%}
  .value{grid-template-columns:1fr;gap:32px;padding-block:48px}
  .value.flip .shot{order:0}
  .shot.watch img{width:min(70%,260px)}
