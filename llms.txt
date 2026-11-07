@@ -1,0 +1,61 @@
+# Loop
+
+> Loop is an Apple Watch and iPhone app that connects your Bluetooth treadmill or walking pad to Apple Fitness and Health, with the distance, speed and steps the treadmill measures. Made by Víctor Redondo Vargas (Spain). One-time purchase, no subscription, 4-day free trial.
+
+- App Store: https://apps.apple.com/app/loop-cinta-de-correr/id6827310005
+- Platforms: iPhone (iOS 26 or later) and Apple Watch (watchOS 10 or later)
+- Languages: Spanish, English, French, Italian, Portuguese
+- Price: free download with a 4-day free trial, then a single in-app purchase to unlock it forever (€2.99 launch price, then €4.99; local prices vary by country). No subscription, no ads, no account.
+- Works with: Bluetooth treadmills and walking pads that use FTMS (Fitness Machine Service) or RSC. Certified: Mobvoi Home Treadmill SE. Not supported yet: most Kingsmith WalkingPads (proprietary protocol), NordicTrack/ProForm (iFit only), Echelon.
+
+## Pages
+- [Home](https://vredondo.com/loop/en/): what Loop does
+- [FAQ](https://vredondo.com/loop/en/faq/): treadmill distance, walking pad steps, compatibility, price
+- [Compatible treadmills](https://vredondo.com/loop/en/compatibilidad/): brands and models with supported features
+- [Privacy policy](https://vredondo.com/loop/en/privacidad/)
+- [Contact](https://vredondo.com/loop/en/contacto/)
+- Other languages: [Español](https://vredondo.com/loop/) · [Français](https://vredondo.com/loop/fr/) · [Italiano](https://vredondo.com/loop/it/) · [Português](https://vredondo.com/loop/pt/)
+
+## FAQ
+
+### Why doesn't Apple Watch measure distance correctly on a treadmill?
+On a treadmill Apple Watch can't use GPS, so it estimates distance from your wrist movement and stride, and it often drifts, especially if you hold the handrail or walk slowly. Loop fixes this by reading the distance measured by the treadmill itself over Bluetooth and saving it in the Apple Fitness and Health workout.
+
+### How do I get Apple Watch to count steps on a walking pad while I work?
+If you walk on a walking pad with your hands on the keyboard, Apple Watch barely detects any steps because your wrist doesn't move. With Loop the distance comes from the treadmill and, if the treadmill sends steps (like the Mobvoi Home Treadmill SE), Loop saves those steps to Health. No need to wear the watch on your ankle.
+
+### How do I connect my treadmill to Apple Watch?
+With Loop: turn on the treadmill, close the manufacturer's app on your phone (most treadmills accept only one connection at a time) and open Loop on Apple Watch. Loop finds the treadmill over Bluetooth, connects automatically and remembers it for next time.
+
+### Which treadmills work with Loop?
+Loop works with Bluetooth treadmills and walking pads that use the FTMS (Fitness Machine Service) or RSC standard. A simple hint: if your treadmill works with Zwift or Kinomap, it will almost certainly work with Loop. The Mobvoi Home Treadmill SE is certified and brands like UREVO, KALWOL and Schwinn have confirmed FTMS; the full list is on the compatible treadmills page.
+
+### How much does Loop cost? Is it a subscription?
+Loop is not a subscription. It's a free download with a 4-day trial of every feature, and then you unlock it forever with a single payment: €2.99 at launch and €4.99 afterwards (local prices vary by country). No monthly fees, no ads and no accounts.
+
+### Do Loop workouts count towards my Apple Fitness rings?
+Yes. Loop saves each session as an indoor walk or indoor run workout in Apple Health, with the treadmill's distance and Apple Watch heart rate and calories. So it counts towards your Move and Exercise rings just like a Workout app session.
+
+### Can I change the treadmill speed from Apple Watch?
+Yes, if the treadmill accepts Bluetooth commands. In Loop you change it with the Digital Crown, the ±0.5 km/h buttons or by dragging the speed gauge, and you can also start, pause and stop the belt from the watch.
+
+### Does Loop know whether I walked or ran?
+Yes. You choose walk or run when you start and, when you finish, Loop checks it against your speed and cadence. If it doesn't match, it corrects it in Health, and you can always change it with one tap in the summary.
+
+### Does Loop work without Apple Watch, with just an iPhone?
+Yes. The iPhone app has a no-watch mode that connects directly to the treadmill and saves the workout to Health with the treadmill's distance and steps. With Apple Watch you also get heart rate, active calories and your rings.
+
+### What do I need to use Loop?
+An iPhone with iOS 26 or later and, to use it on your wrist, an Apple Watch with watchOS 10 or later. Plus a treadmill or walking pad with FTMS or RSC Bluetooth.
+
+### Does Loop work with Kingsmith WalkingPad, NordicTrack or Echelon?
+Not yet. Most Kingsmith WalkingPads use their own protocol instead of FTMS, NordicTrack and ProForm reserve their Bluetooth for iFit, and Echelon only connects to its own app. If you have another treadmill that isn't on the list, write to us from the website or the app and we'll try to add it.
+
+### How is Loop different from using the Apple Watch Workout app on a treadmill?
+The Workout app estimates treadmill distance with the watch's sensors. Loop uses the distance, speed and steps measured by the treadmill, lets you control the speed from the watch and works even when your wrist is still. The workout ends up in Fitness and Health just like an Apple one.
+
+### Does Loop store my data or need an account?
+No. Loop has no accounts, ads or tracking. Workouts are stored only in Apple Health, on your devices.
+
+### What languages is Loop available in?
+Spanish, English, French, Italian and Portuguese, with kilometres or miles depending on your iPhone settings.
