@@ -1,7 +1,0 @@
-<!doctype html><meta charset="utf-8"><title>envio</title><body>enviando…<script>
-(async()=>{const L=['es','en','fr','it','pt'],N=['1-cinta','2-pasos','3-fitness'];
-const t='https://appstoreconnect.apple.com';
-if(!window.opener){document.body.textContent='sin opener';return;}
-for(const l of L)for(const n of N){const f=l+'-'+n+'.jpg';const b=await (await fetch(f)).arrayBuffer();window.opener.postMessage({loopShot:f,buf:b},t,[b]);}
-window.opener.postMessage({loopShot:'__done'},t);document.body.textContent='hecho';})();
-</script>
