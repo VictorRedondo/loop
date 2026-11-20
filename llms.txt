@@ -5,7 +5,7 @@
 - App Store: https://apps.apple.com/app/loop-cinta-de-correr/id6827310005
 - Platforms: iPhone (iOS 26 or later) and Apple Watch (watchOS 10 or later)
 - Languages: Spanish, English, French, Italian, Portuguese
-- Price: free download with a 7-day free trial, then a single in-app purchase to unlock it forever (€2.99 launch price, then €4.99; local prices vary by country). No subscription, no ads, no account.
+- Price: free download with a 7-day free trial, then a single in-app purchase to unlock it forever (€2.99 launch price, then €5.99; local prices vary by country). No subscription, no ads, no account.
 - Works with: Bluetooth treadmills and walking pads that use FTMS (Fitness Machine Service) or RSC. Certified: Mobvoi Home Treadmill SE. Not supported yet: most Kingsmith WalkingPads (proprietary protocol), NordicTrack/ProForm (iFit only), Echelon.
 
 ## Pages
@@ -31,7 +31,7 @@ With Loop: turn on the treadmill, close the manufacturer's app on your phone (mo
 Loop works with Bluetooth treadmills and walking pads that use the FTMS (Fitness Machine Service) or RSC standard. A simple hint: if your treadmill works with Zwift or Kinomap, it will almost certainly work with Loop. The Mobvoi Home Treadmill SE is certified and brands like UREVO, KALWOL and Schwinn have confirmed FTMS; the full list is on the compatible treadmills page.
 
 ### How much does Loop cost? Is it a subscription?
-Loop is not a subscription. It's a free download with a 7-day trial of every feature, and then you unlock it forever with a single payment: €2.99 at launch and €4.99 afterwards (local prices vary by country). No monthly fees, no ads and no accounts.
+Loop is not a subscription. It's a free download with a 7-day trial of every feature, and then you unlock it forever with a single payment: €2.99 at launch and €5.99 afterwards (local prices vary by country). No monthly fees, no ads and no accounts.
 
 ### Do Loop workouts count towards my Apple Fitness rings?
 Yes. Loop saves each session as an indoor walk or indoor run workout in Apple Health, with the treadmill's distance and Apple Watch heart rate and calories. So it counts towards your Move and Exercise rings just like a Workout app session.
