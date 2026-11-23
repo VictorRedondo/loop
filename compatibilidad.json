@@ -1,0 +1,164 @@
+{
+ "updated": "2026-11-20",
+ "page": "https://vredondo.com/loop/compatibilidad/",
+ "rows": [
+  {
+   "brand": "Mobvoi",
+   "model": "Home Treadmill SE",
+   "status": "cert",
+   "ble": [
+    "mobvoi tm se",
+    "mobvoi home treadmill se"
+   ]
+  },
+  {
+   "brand": "Mobvoi",
+   "model": "Home Treadmill Incline",
+   "status": "ftms",
+   "ble": [
+    "mobvoi tm incline",
+    "mobvoi treadmill incline"
+   ]
+  },
+  {
+   "brand": "Mobvoi",
+   "model": "Home Treadmill Pro",
+   "status": "theory",
+   "ble": [
+    "mobvoi tm pro"
+   ]
+  },
+  {
+   "brand": "Mobvoi",
+   "model": "Treadmill Ultra · SE Incline",
+   "status": "theory",
+   "ble": []
+  },
+  {
+   "brand": "UREVO",
+   "model": "CyberPad · CyberPad for Office (URTM051)",
+   "status": "cert",
+   "ble": [
+    "urtm051",
+    "cyberpad"
+   ]
+  },
+  {
+   "brand": "UREVO",
+   "model": "SpaceWalk 3S",
+   "status": "ftms",
+   "ble": [
+    "spacewalk 3s"
+   ]
+  },
+  {
+   "brand": "UREVO",
+   "model": "Strol 2S Pro",
+   "status": "ftms",
+   "ble": [
+    "strol 2s"
+   ]
+  },
+  {
+   "brand": "UREVO",
+   "model": "Strol 2E",
+   "status": "ftms",
+   "ble": [
+    "strol 2e"
+   ]
+  },
+  {
+   "brand": "UREVO",
+   "model": "SpaceWalk E1L · SP1 Lite",
+   "status": "ftms",
+   "ble": []
+  },
+  {
+   "brand": "KALWOL",
+   "model": "X382P",
+   "status": "ftms",
+   "ble": [
+    "x382p"
+   ]
+  },
+  {
+   "brand": "LifeSmart",
+   "model": "H1 Hybrid",
+   "status": "ftms",
+   "ble": []
+  },
+  {
+   "brand": "Schwinn",
+   "model": "T510",
+   "status": "ftms",
+   "ble": []
+  },
+  {
+   "brand": "Evolve",
+   "model": "3.0",
+   "status": "ftms",
+   "ble": []
+  },
+  {
+   "brand": "XTERRA",
+   "model": "TRX4500",
+   "status": "ftms",
+   "ble": []
+  },
+  {
+   "brand": "Spirit",
+   "model": "XT385",
+   "status": "ftms",
+   "ble": [
+    "xt385"
+   ]
+  },
+  {
+   "brand": "Merach",
+   "model": "T14",
+   "status": "theory",
+   "ble": []
+  },
+  {
+   "brand": "Adidas",
+   "model": "T-1 · T-19i · T-23 · T-24c · T-25",
+   "status": "theory",
+   "ble": []
+  },
+  {
+   "brand": "Reebok",
+   "model": "Jet 100 Z · Z-Tech",
+   "status": "theory",
+   "ble": []
+  },
+  {
+   "brand": "BH Fitness",
+   "model": "Boxster Plus II",
+   "status": "theory",
+   "ble": []
+  },
+  {
+   "brand": "Zipro",
+   "model": "Forma 12",
+   "status": "cert",
+   "ble": [
+    "forma 12",
+    "forma12"
+   ]
+  },
+  {
+   "brand": "Zipro",
+   "model": "Forma Air",
+   "status": "theory",
+   "ble": [
+    "forma air"
+   ]
+  },
+  {
+   "brand": "Domyos",
+   "model": "RUN100E · RUN500 · Challenge Run",
+   "status": "theory",
+   "ble": []
+  }
+ ]
+}
