@@ -194,7 +194,7 @@
   }
  ],
  "statuses": {
-  "cert": "2-3 people confirmed it works perfectly",
+  "cert": "fully tested with Loop on a real treadmill",
   "compat": "tested by a Loop user, works",
   "ftms": "standard FTMS confirmed, not tested",
   "theory": "Zwift/Kinomap compatible according to the maker"
