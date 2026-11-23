@@ -166,7 +166,7 @@
   {
    "brand": "Zipro",
    "model": "Forma 12",
-   "status": "compat",
+   "status": "cert",
    "ble": [
     "forma 12",
     "forma12"
