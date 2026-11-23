@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-23",
  "page": "https://vredondo.com/loop/compatibilidad/",
  "rows": [
   {
@@ -114,6 +114,32 @@
    ]
   },
   {
+   "brand": "Cybergoing",
+   "model": "T10",
+   "status": "ftms",
+   "ble": []
+  },
+  {
+   "brand": "Technogym",
+   "model": "MyRun",
+   "status": "ftms",
+   "ble": [
+    "myrun"
+   ]
+  },
+  {
+   "brand": "Kingsmith",
+   "model": "WalkingPad A1 Pro",
+   "status": "cert",
+   "ble": []
+  },
+  {
+   "brand": "Kingsmith",
+   "model": "WalkingPad P1 (WPP1F)",
+   "status": "cert",
+   "ble": []
+  },
+  {
    "brand": "Merach",
    "model": "T14",
    "status": "theory",
@@ -156,7 +182,13 @@
   },
   {
    "brand": "Domyos",
-   "model": "RUN100E · RUN500 · Challenge Run",
+   "model": "Run 500",
+   "status": "ftms",
+   "ble": []
+  },
+  {
+   "brand": "Domyos",
+   "model": "RUN100E · Challenge Run",
    "status": "theory",
    "ble": []
   }
