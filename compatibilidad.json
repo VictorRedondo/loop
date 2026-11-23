@@ -37,7 +37,7 @@
   {
    "brand": "UREVO",
    "model": "CyberPad · CyberPad for Office (URTM051)",
-   "status": "cert",
+   "status": "compat",
    "ble": [
     "urtm051",
     "cyberpad"
@@ -108,7 +108,7 @@
   {
    "brand": "Spirit",
    "model": "XT385",
-   "status": "ftms",
+   "status": "compat",
    "ble": [
     "xt385"
    ]
@@ -116,13 +116,13 @@
   {
    "brand": "Cybergoing",
    "model": "T10",
-   "status": "ftms",
+   "status": "compat",
    "ble": []
   },
   {
    "brand": "Technogym",
    "model": "MyRun",
-   "status": "ftms",
+   "status": "compat",
    "ble": [
     "myrun"
    ]
@@ -130,13 +130,13 @@
   {
    "brand": "Kingsmith",
    "model": "WalkingPad A1 Pro",
-   "status": "cert",
+   "status": "compat",
    "ble": []
   },
   {
    "brand": "Kingsmith",
    "model": "WalkingPad P1 (WPP1F)",
-   "status": "cert",
+   "status": "compat",
    "ble": []
   },
   {
@@ -166,7 +166,7 @@
   {
    "brand": "Zipro",
    "model": "Forma 12",
-   "status": "cert",
+   "status": "compat",
    "ble": [
     "forma 12",
     "forma12"
@@ -183,7 +183,7 @@
   {
    "brand": "Domyos",
    "model": "Run 500",
-   "status": "ftms",
+   "status": "compat",
    "ble": []
   },
   {
@@ -192,5 +192,11 @@
    "status": "theory",
    "ble": []
   }
- ]
+ ],
+ "statuses": {
+  "cert": "2-3 people confirmed it works perfectly",
+  "compat": "tested by a Loop user, works",
+  "ftms": "standard FTMS confirmed, not tested",
+  "theory": "Zwift/Kinomap compatible according to the maker"
+ }
 }
